@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Guessing Word App</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <h1>Guess The Word</h1>
+        <div class="content">
+            <input type="text" class="typing-input" maxlength="1">
+            <div class="inputs">
+                
+            </div>
+            <div class="details">
+                <p class="hint">Hint: <span></span></p>
+                <p class="guess-left">Remaining Guesses: <span></span></p>
+                <p class="wrong-letter">Wrong Letters: <span></span></p>
+            </div>
+            <button class="btn-reset">Reset Game</button>
+        </div>
+    </div>
+
+    <div class="popup hidden">
+        <div class="popup-content">
+            <h1>Congrats!</h1>
+            <p>You've found the word BANANA</p>
+            <button class="ok">OK</button>
+        </div>
+    </div>
+    
+    <script src="js/words.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
